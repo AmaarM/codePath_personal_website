@@ -28,6 +28,7 @@
 
 .bio-desc{
     margin-right: 20px;
+    font-size: 16px;
 }
 
 .bio{
@@ -43,5 +44,22 @@
 .portfolio{
     margin-top: 30px;
     display: flex;
-    flex-wrap: wrap;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    outline: black solid 2px;
+    padding: 10px;
+}
+
+.card-containers{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.logo{
+    width: 125px;
+    margin-bottom: 8px;
 }
